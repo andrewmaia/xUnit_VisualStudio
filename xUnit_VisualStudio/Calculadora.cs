@@ -12,5 +12,10 @@ namespace xUnit_VisualStudio
         {
             return a + b;
         }
+
+        public bool NumeroEhPar(int a)
+        {
+            return a % 2 == 0;
+        }
     }
 }

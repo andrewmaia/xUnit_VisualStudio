@@ -17,5 +17,14 @@ namespace xUnit_VisualStudio
         {
             Assert.Equal(5, c.Somar(2, 2));
         }
+
+        [Theory]
+        [InlineData(3)]
+        [InlineData(5)]
+        [InlineData(6)]
+        public void NumeroEhPar(int value)
+        {
+            Assert.True(c.NumeroEhPar(value));
+        }
     }
 }
