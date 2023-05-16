@@ -4,6 +4,7 @@ namespace xUnit_VisualStudio
 {
     public class CalculadoraUnitTest
     {
+        //Para rodar os testes em linha de comando  utiluze: dotnet test
         Calculadora c = new Calculadora();
 
         [Fact]
